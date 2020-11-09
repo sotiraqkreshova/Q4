@@ -1,0 +1,39 @@
+I created a Stack class with the following features :
+ 1 - Stack
+ 2 - isEmpty
+ 3 - isFull
+ 4 - getSize
+ 5 - printAll
+ 6 - push
+ 7 - pop
+ 8 - update
+
+The stack has 2 private attributes 
+ 1 - data : array of chars.
+ 2 - size : integer (the current size of the stack)
+ 
+
+------------------------Details -------------------------------------------------
+
+Stack    : Constructor that initializes the stack.
+
+isEmpty  : public function that returns True if the size of the stack is 0.
+
+isFull   : public function that returns True if the size of the stack = MAX_SIZE
+           Note : MAZ_SIZE is defined in the top of stack.h file and can be modified.
+
+getSize  : public function that returns the current size of the stack.
+
+printAll : public function that prints out all elements of the stack.
+
+push     : public function that inserts a new item at the top of the stack.
+           Note : it increases the size of the stack by 1
+                  if the stack is full it returns False
+
+pop      : public function that returns the top most element of the stack and remove it.
+           Note : it decreases the size of the stack by 1
+                  if the stack is full it returns '~'.
+
+Update   : public function that updates the value of an index in the stack.
+           Note :  if the pos is not in the stack it returns False.
+
